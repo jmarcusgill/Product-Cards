@@ -1,17 +1,18 @@
 
 article {
-  max-width: 30%;
+  width: 30%;
   border: 1px solid lightblue;
   margin-bottom: 20px;
 }
+
 .container {
   max-width: 100%;
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: flex-start;
 }
-
 h4, h6 {
   margin: 0;
 }
