@@ -1,0 +1,44 @@
+
+article {
+  width: 30%;
+  border: 1px solid lightblue;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+h4, h6 {
+  margin: 0;
+}
+
+.image img {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.header {
+  border: 1px dotted lightgray;
+  text-align: center;
+}
+ .description {
+  text-align: justify;
+  margin: 0 15px;
+ }
+
+.specs>p,
+.section3>p {
+  font-weight: bold;
+  margin: 0 0 0 20px;
+}
+
+.available {
+  color: yellow;
+  background-color: darkgrey;
+}
